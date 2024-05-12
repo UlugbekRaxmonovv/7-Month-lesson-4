@@ -1,0 +1,85 @@
+.products{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+}
+.card{
+    width: 300px;
+    height: 450px;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 10px;
+    margin:  20px 20px;
+    background-color: white !important;
+}
+.product{
+    width: 100%;
+    max-width: 250px;
+    min-height: 300px;
+    display: block;
+    object-fit: cover;
+   box-shadow: 2px 2px 8px 2px rgb(234, 234, 234);
+   transition: all .2s linear;
+}
+ .product-all{
+    opacity: 0;
+    transition: all 0.2s linear;
+}
+.product:hover{
+    transform: scale(1.02);
+}
+.product-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+.product-all:hover{
+    opacity: 1;
+}
+.product_Add{
+    width: 35px;
+height: 35px;
+border-radius: 4px;
+background-color : rgb(238, 238, 238);
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.product_Add >svg{
+    width: 20px;
+    height: 17.79px; 
+       
+}
+.product_name{
+    text-transform: uppercase;
+    margin: 10px 0px;
+    font-family: Cera Pro;
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+text-align: left;
+color: #3D3D3D;
+
+}
+.product_price{
+    margin: 10px 0px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: Cera Pro;
+font-size: 18px;
+font-weight: 700;
+line-height: 16px;
+text-align: left;
+color: #46A358;
+
+}
+.product_Add:active{
+    transform: translateY(2px);
+}

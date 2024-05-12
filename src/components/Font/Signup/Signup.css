@@ -1,0 +1,283 @@
+.signup{
+    display: flex;
+   align-items: center;
+   gap:10px;
+   padding: 20px 0;
+
+}
+
+.signup-all >a{
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: #3D3D3D;
+    
+}
+.signup_row{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.p{
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+    color: #3D3D3D;
+    padding: 10px 0;
+    margin-top: 20px
+    
+}
+.signup_input{
+    width: 350px;
+    height: 40px;
+    gap: 0px;
+    border-radius: 3px ;
+    border: 1px;
+    border: 1px solid #EAEAEA ;   
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.signup_inputa{
+    width: 350px;
+    height: 40px;
+    gap: 0px;
+    border-radius: 3px ;
+    border: 1px;
+    border: 1px solid #EAEAEA ;   
+    display: flex;
+    align-items: center;
+    margin-top: 65px;
+}
+select{
+    border: none;
+    outline: none;
+}
+.signup_inputa >input{
+    outline: none;
+    border: none;
+    padding: 0 5px;
+}
+.signup_input input{
+    outline: none;
+    border: none;
+    padding: 0 5px;
+    
+}
+.all5{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+.all4 >img{
+    width: 15px;
+    height: 15px;
+    
+}
+.all4 >p{
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: #3D3D3D;
+    
+}
+.signup_all >h4{
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+    color: #3D3D3D;
+    margin-top: 20px;
+    
+}
+textarea{
+    max-width: 350px;
+    width: 100%;
+height: 152px;
+border-radius: 3px;
+border: 1px;
+border: 1px solid #EAEAEA;
+resize: none;
+margin-top: 10px;
+outline: none;
+}
+
+
+.column_all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.3px solid #46A35880;
+    padding: 24px 0;
+}
+.link_all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 10px 0;
+}
+.item_link >img{
+    width: 70px;
+    height: 70px;  
+}
+.item_link >p{
+    font-family: Cera Pro;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: #3D3D3D;
+    
+}
+.item_link >span{
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #727272;  
+}
+.item_link >h5{
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: right;
+    color: #727272;
+    
+}
+.item_link >h6{
+    font-family: Cera Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: right;
+    color: #46A358;
+    
+}
+
+.signup_all >p{
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-left: 54%;
+    color: #727272;
+
+
+    
+}
+.signup_all p >span{
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: right;
+    color: #46A358;
+}
+.ol_li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 0 80px;
+    justify-content: space-between;
+    gap: 100px;
+}
+.item_link >h6{
+    font-family: Cera Pro;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: right;
+    color: #3D3D3D;
+    
+}
+ol > span{
+    font-family: Cera Pro;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: right;
+    color: #46A358;
+    margin-left: 58%;   
+}
+.ol_siz{
+    border-bottom: 0.3px solid #46A35880;
+    width: 63%;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.payment{
+    padding: 0 80px;
+    margin-top:  20px;
+}
+.payment >p{
+    font-family: Cera Pro;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: #3D3D3D;  
+}
+.paymi{
+    max-width: 321px;
+    width: 100%;
+    height: 45px;
+    top: 762px;
+    left: 999px;
+    gap: 0px;
+    border-radius: 3px;
+    border: 1px ;
+    border: 1px solid #EAEAEA;
+    display: flex; 
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.paymi-all>img{
+    max-width: 224px;
+    width: 100%;
+    height: 26px;
+    
+}
+.paymi-all1 >img{
+    width: 16px;
+    height: 16px;
+    
+}
+.paymi-all >p{
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #3D3D3D;
+    
+}
+.button_alt_row >button{
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+  text-align: center;
+    color: #FFFFFF;
+    width: 321px;
+height: 40px;
+border-radius: 3px;
+background: #46A358;
+border: none;
+margin-top: 20px;
+
+}

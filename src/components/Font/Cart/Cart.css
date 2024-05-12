@@ -1,0 +1,358 @@
+.box{
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+justify-content: center;
+}
+.all1{
+    background-color: #eee;
+    width: 106%;
+    height: 1px;
+    margin-top: 14px;
+}
+.box_row>p{
+    font-family: Cera Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: #3D3D3D;
+
+}
+.box_row >h4{
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #3D3D3D;
+    margin-top: 20px;
+      
+}
+.hammasi_input{
+    display: flex;
+    justify-content: space-between;
+    width: 332px;
+    height: 40px;
+    border-radius: 3px ;
+    border: 1px ;
+    border: 1px solid #46A358;
+    margin-top: 35px; 
+}
+.input_alt{
+    display: flex;
+    align-items: center;
+}
+.input_alt >input{
+    outline: none;
+    border: none;
+    padding:  0 10px;
+}
+.input_alt >button{
+    width: 102px;
+    height: 40px;
+    top: 243px;
+    left: 1218px;
+    gap: 0px;
+    border-radius: 0px 3px 3px 0px;
+    opacity: 0px;
+    background: #46A358;
+    font-family: Cera Pro;
+font-size: 15px;
+font-weight: 700;
+line-height: 16px;
+text-align: center;
+color: #FFFFFF;
+border: none;
+
+}
+
+.pri_alt{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.pri_row >p{
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #3D3D3D;
+
+}
+.pri_alt >span{
+    font-family: Cera Pro;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: right;
+    color: #3D3D3D;
+
+}
+.p1{
+    font-family: Cera Pro;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #46A358;
+    margin-left: 220px;
+
+}
+.pri_row >h2{
+    font-family: Cera Pro;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: #3D3D3D;
+
+}
+.pri_alt >h5{
+    font-family: Cera Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: right;
+    color: #46A358;
+    
+}
+.btn_button{
+    display: flex;
+    flex-direction: column;
+    width: 332px;
+    padding: 20px 0;    
+}
+
+.btn_button >button{
+    height: 40px;
+    border: none;
+    line-height: 32px;
+    border-radius: 3px;
+}
+.btn_button button:nth-child(1){
+    background: #46A358;
+    color: white;
+    transition: all .4s linear;
+}
+.btn_button button:nth-child(2){
+    background: white;
+    color: #46A358;
+    transition: all .4s linear;
+    margin-top: 10px;
+}
+.btn_button button:nth-child(1):hover:active{
+    background: white;
+    color: #46A358;
+    transform: scale(1.02);
+}
+.btn_button button:nth-child(2):hover:active{
+    background: #46A358;
+    color: white;
+    transform: scale(1.02);
+
+}
+
+
+.cart-Items{
+    max-width: 782px; 
+    width: 100%;  
+    /* height: 100px; */
+    background-color: white !important;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.cart-Item{
+    max-width: 782px; 
+    width: 100%;  
+    background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 140px;
+    padding: 10px 0;
+   
+}
+.cart-Header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border: 1px solid rgb(211, 211, 211);
+
+}
+.hammasi{
+    max-width: 782px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+    margin-top: -10px;
+}
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.hammasi-all >p{
+    margin-left: -190%;
+}
+
+.cart-Empty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px ;
+}
+.cart-Item-img{
+    width: 100px;
+    height: auto;
+    border: 1px solid rgb(211, 211, 211);
+    margin-right: 10px;
+}
+.cart-Item{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.pri{
+    margin-left: -55%;
+    text-align: center;
+}
+.card_itim_function{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -140%;
+}
+.teg-p{
+    text-align: center;
+    font-family: Cera Pro;
+font-size: 17px;
+font-weight: 400;
+line-height: 10px;
+text-align: left;
+color: #3D3D3D;
+margin-left: -5%; 
+
+}
+.card_etim_btn{
+    width: 30px;
+    margin-right: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.card_etim_remove{
+    width: 30px;
+    margin-right: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    /* margin-left: -40%; */
+}
+.card_etim_btn{
+    background: linear-gradient(180deg, #46A358 0%, rgba(70, 163, 88, 0.8) 100%);
+}
+.card_etim_remove{
+    background: linear-gradient(180deg, #46A358 0%, rgba(70, 163, 88, 0.8) 100%);
+
+}
+.card_etim_btn:active{
+    transform: translateY(1.2px);
+}
+.card_etim_remove:active{
+    transform: translateY(1.2px);
+}
+.card_etim_price-name{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* padding-left: 22%; */
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid rgb(211, 211, 211);
+
+}
+
+.card_etim{
+display: flex;
+margin-left: -180%;
+align-items: center;
+}
+.card_etim >tr p{
+    font-family: Cera Pro;
+font-size: 16px;
+font-weight: 700;
+line-height: 16px;
+text-align: left;
+color: #46A358;
+
+}
+.delet{
+    margin-left: 20px;
+}
+
+.creat-colum{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.cart-Item-name{
+display: flex;
+align-items: center;
+gap: 10px;
+
+
+}
+.cart-Item-name tr >p{
+    font-family: Cera Pro;
+font-size: 16px;
+font-weight: 500;
+line-height: 16px;
+text-align: left;
+max-width: 60px;
+width: 100%;
+color: #3D3D3D;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 1;
+overflow: hidden;
+}
+.cler_Card{
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    height: 30px;
+    width: 100px;
+    font-size: 18px;
+    color:  white;
+    cursor: pointer;
+}
+.cler_Card:hover{
+    background-color: #0e557e;
+}
